@@ -23,4 +23,4 @@ prob = 1 / (1 + np.exp(-logit))
 
 # Resultado
 st.subheader("Probability with standard theraphy")
-st.metric("Probabilidad estimada de LDL < 55", f"{prob*100:.1f}%")
+st.metric("Estimated probability of LDL-C <55  mg/dl", f"{prob*100:.1f}%")
